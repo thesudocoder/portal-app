@@ -21,6 +21,12 @@ const theme = createMuiTheme({
       textTransform: "none",
       fontWeight: 700,
       fontSize: "1rem",
+    },
+    layout: {
+      height: "calc(100vh - 128px)",
+      width: "100%",
+      display: "inline-flex",
+      backgroundColor: "#e2e8ed"
     }
   }
 });
