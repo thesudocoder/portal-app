@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import Header from '../../components/Header'
 import Sidebar from '../../components/Sidebar'
 import Content from '../../components/Content'
-import List from '../../components/List'
+import SideList from '../../components/SideList'
 
 import { makeStyles } from '@material-ui/styles';
 
@@ -21,7 +21,7 @@ function Organizations() {
         <Header title="Org" action="Reg new Org"/>
         <div className={classes.container}>
           <Sidebar>
-            <List></List>
+            <SideList />
           </Sidebar>
           <Content />
         </div>
