@@ -11,9 +11,14 @@ import { makeStyles } from '@material-ui/styles';
 function Content(props) {
   const classes = useStyles()
 
+  const { children } = props
+
   return (
     <Fragment>
-        <div className={classes.container}>Content</div>
+      <div className={classes.container}>
+        {children}
+      </div>
+        
     </Fragment>
   );
 }
